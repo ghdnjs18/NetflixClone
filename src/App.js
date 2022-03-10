@@ -5,14 +5,14 @@ import {Contents} from './components';
 function App() {
   return (
     <div className="App">
-      <Contents title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}/>
-      <Contents title="Trending Now" fetchUrl={requests.fetchTrending}/>
-      <Contents title="Top Rated" fetchUrl={requests.fetchTopRated}/>
-      <Contents title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
-      <Contents title="Comedy Movies" fetchUrl={requests.fetchComedyMovies}/>
-      <Contents title="Horror Movies" fetchUrl={requests.fetchHorrorMovies}/>
-      <Contents title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
-      <Contents title="Documentaries" fetchUrl={requests.fetchDocumentaries}/>
+      <Contents title="넷플릭스 오리지널" fetchUrl={requests.fetchNetflixOriginals}/>
+      <Contents title="주간 인기 콘텐츠" fetchUrl={requests.fetchTrending}/>
+      <Contents title="넷플릭스 인기 콘텐츠" fetchUrl={requests.fetchTopRated}/>
+      <Contents title="액션 영화" fetchUrl={requests.fetchActionMovies}/>
+      <Contents title="코미디 영화" fetchUrl={requests.fetchComedyMovies}/>
+      <Contents title="공포 영화" fetchUrl={requests.fetchHorrorMovies}/>
+      <Contents title="로맨스 영화" fetchUrl={requests.fetchRomanceMovies}/>
+      <Contents title="다큐멘터리" fetchUrl={requests.fetchDocumentaries}/>
     </div>
   );
 }
